@@ -1,0 +1,11 @@
+Data added from credit card repo on Kaggle to ./data/external/: https://www.kaggle.com/code/gpreda/credit-card-fraud-detection-predictive-models/input
+
+git repo initiated : https://github.com/mkr9395/mlops-credit-card.git
+
+separate logger_setup.py file created to make the console handler and file handler and importing in the main() of each file.
+
+separate *log_files* folder created to have all the logs. 
+
+creating params.yaml file to add all the params
+
+to run the data_ingestion file use --> python -m src.data.data_ingestion
