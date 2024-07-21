@@ -9,3 +9,5 @@ separate *log_files* folder created to have all the logs.
 creating params.yaml file to add all the params
 
 to run the data_ingestion file use --> python -m src.data.data_ingestion
+
+to remove '@' symbol from requirements.txt use --> pip list --format=freeze > requirements.txt
